@@ -63,7 +63,7 @@ Kickfluence is a stylish, data-driven sneaker website that combines fashion with
  
 🌍 Website: (https://kickfluence-website.vercel.app/) 
 📊 Power BI Dashboard: Embedded via `dash.html`  
-📈 ML Predictor: [Streamlit App](https://shoepriceprediction-2dtxlpjaxutpuhvbcyhkmr.streamlit.app/)
+📈 ML Predictor: [Streamlit App](https://shoepriceprediction-2dtxlpjaxutpuhvbcyhkmr.streamlit.app/) | GITHUB:https://github.com/Rifana20/ShoePricePrediction
 
 ---
 
