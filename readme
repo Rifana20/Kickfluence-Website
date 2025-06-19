@@ -1,0 +1,63 @@
+# 👟 Kickfluence - Sneaker Intelligence Platform
+
+Kickfluence is a stylish, data-driven sneaker website that combines fashion with machine learning and data visualization.
+
+
+## 🌐 Website Features
+
+- 💻 Built with HTML & CSS
+- 🛒 12 curated sneaker cards with Add to Cart buttons
+- 🎯 Offers section, responsive layout
+- 📈 Embedded ML-powered Price Predictor
+- 📊 Power BI Dashboard with smart visualizations
+- 🔗 Button navigation to `dash.html` and external ML app
+
+## 🚀 Live Features
+
+| Feature | Status | Description |
+|--------|--------|-------------|
+| Website UI | ✅ Done | HTML + CSS based, responsive, styled |
+| Price Predictor | ✅ Done | ML model hosted on Streamlit ([Try it](https://shoepriceprediction-2dtxlpjaxutpuhvbcyhkmr.streamlit.app/)) |
+| Power BI Dashboard | ✅ Done | Two-page dashboard with insights |
+| Backend Integration | ❌ Not yet | 
+
+---
+
+## 📊 Power BI Dashboard Highlights
+
+- Brand with most variety
+- Average price by type
+- Gender and material analysis
+- Correlation between size and price
+- Summary cards (Min, Max, Avg Price)
+
+📍Visuals are added in `dash.html` using screenshots from Power BI.
+
+---
+
+## 🧠 Machine Learning Model
+
+- Trained on a `.csv` dataset of sneaker features (Brand, Type, Material, Size, etc.)
+- Used regression algorithm
+- Achieved **78% accuracy**
+- Integrated via Streamlit
+
+---
+
+## 🔮 Future Improvements
+
+- Backend 
+- Cart functionality and login auth
+- Real-time prediction integration (without opening Streamlit separately)
+- Host the dashboard using Power BI public link 
+---
+
+## 📬 Contact
+ 
+🌍 Website: www.kickfluence.com (not yet hosted)  
+📊 Power BI Dashboard: Embedded via `dash.html`  
+📈 ML Predictor: [Streamlit App](https://shoepriceprediction-2dtxlpjaxutpuhvbcyhkmr.streamlit.app/)
+
+---
+
+**Made with ❤️ by Rifana Sherin**
