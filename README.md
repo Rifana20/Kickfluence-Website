@@ -51,7 +51,7 @@ Kickfluence is a stylish, data-driven sneaker website that combines fashion with
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Backend 
 - Cart functionality and login auth
@@ -59,7 +59,7 @@ Kickfluence is a stylish, data-driven sneaker website that combines fashion with
 - Host the dashboard using Power BI public link 
 ---
 
-## 📬 Contact
+## Hosted Link
  
 🌍 Website: (https://kickfluence-website.vercel.app/) 
 📊 Power BI Dashboard: Embedded via `dash.html`  
