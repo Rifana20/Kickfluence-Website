@@ -1,0 +1,314 @@
+/* Responsive Kickfluence Style - Updated */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Fira+Sans&family=Montserrat&family=Raleway&family=Permanent+Marker&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #f0f8ff; /* pastel blue */
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.offer-marquee {
+  background-color: #ffe680;
+  color: #003366;
+  padding: 10px 0;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  text-align: center;
+}
+
+.offer-marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: slide-left 20s linear infinite;
+}
+
+@keyframes slide-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.navbar {
+  background-color: #003366;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffe680;
+  text-shadow: 0px 0px 3px #ffe680;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #e6f0ff, #ffffff);
+  font-family: 'Permanent Marker', cursive;
+  color: #003366;
+}
+
+.hero h1 {
+  font-size: 48px;
+  text-shadow: 1px 1px 3px #ffe680;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #444;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about {
+  background-color: #ffffff;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+#about h2 {
+  color: #003366;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+}
+
+#about p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.shoes-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  background-color: #e6f0ff;
+}
+
+.shoe-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #cce6ff;
+  position: relative;
+
+}
+
+.shoe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.shoe-card img {
+  width: 100%;
+  height: 160px;           /* uniform height */
+  object-fit: contain;     /* ensures full image fits inside */
+  background-color: #fff;  /* optional: keeps it clean */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+.add-to-cart {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #ffe680;
+  color: #003366;
+  box-shadow: 0 4px 12px #ffc;
+}
+
+.button-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.button-container button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 12px 26px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #ffe680;
+  color: #003366;
+  box-shadow: 0px 4px 12px #ffc;
+}
+
+.faq {
+  background-color: #ffffff;
+  padding: 60px 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.faq h2 {
+  color: #003366;
+  text-align: center;
+  font-size: 30px;
+}
+
+.subscribe {
+  background-color: #cce6ff;
+  padding: 40px;
+  text-align: center;
+}
+
+.subscribe form input[type="email"] {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 250px;
+  max-width: 90%;
+}
+
+.subscribe form button {
+  padding: 12px 24px;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe form button:hover {
+  background-color: #ffe680;
+  color: #003366;
+}
+
+#contact {
+  background-color: #e6f0ff;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+#contact h3 {
+  color: #003366;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+footer {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ffe680;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  #about h2, .faq h2, #contact h3 {
+    font-size: 24px;
+  }
+
+  #about p, .faq p, #contact p {
+    font-size: 16px;
+  }
+
+  .subscribe form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .subscribe form button {
+    width: 100%;
+  }
+
+  .button-container button {
+    width: 90%;
+    max-width: 300px;
+  }
+}

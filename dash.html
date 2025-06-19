@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kickfluence - Dashboard Insights</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap');
+
+    body {
+      background-color: #f0f8ff;
+      font-family: 'Fira Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #003366;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .dashboard-container {
+      padding: 30px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .dashboard-image {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+
+    .findings {
+      background-color: #002244;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-top: 40px;
+    }
+
+    .findings h2 {
+      color: white;
+      font-size: 26px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .insight-box {
+      background: #ffffff;
+      border-left: 6px solid #003366;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 1.6;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .insight-box strong {
+      color: #003366;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .dashboard-container {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>KICKFLUENCE - DASHBOARD INSIGHTS</header>
+
+  <div class="dashboard-container">
+    <img src="d1.png" alt="Dashboard Page 1" class="dashboard-image">
+    <img src="d2.png" alt="Dashboard Page 2" class="dashboard-image">
+
+    <div class="findings">
+      <h2>Key Business Insights from the Dashboard</h2>
+
+      <div class="insight-box">
+        <strong>More Shoe Models are Available for Men</strong><br>
+        53.18% of the models target men, indicating a slightly greater variety in the male market segment.
+      </div>
+
+      <div class="insight-box">
+        <strong>Running Shoes Dominate the Market</strong><br>
+        With 300+ models, Running is the most common shoe type, followed by Casual and Skate — reflecting a focus on performance and fitness.
+      </div>
+
+      <div class="insight-box">
+        <strong>Adidas , Asics and Nike Lead as Premium Brands</strong><br>
+        These brands have the highest average prices, indicating strong brand equity and premium positioning.
+      </div>
+
+      <div class="insight-box">
+        <strong>Price Doesn't Always Correlate with Size</strong><br>
+        Scatter plot shows no clear trend — pricing is influenced more by brand, type, and material.
+      </div>
+
+      <div class="insight-box">
+        <strong>Mesh and Leather are the Most Popular Materials</strong><br>
+        Mesh (30.62%) and Leather (16.77%) dominate, suggesting comfort and breathability are key product priorities.
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Kickfluence | Data Visualized with Power BI
+  </footer>
+</body>
+</html>
